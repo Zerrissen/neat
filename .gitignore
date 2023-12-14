@@ -39,7 +39,7 @@
 
 # Environment  and development variables
 *.env
-appsettings.Development.json
+**/appsettings.Development.json
 
 # Ignore log files and databases
 *.log
