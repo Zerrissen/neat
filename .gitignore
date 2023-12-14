@@ -1,1 +1,50 @@
-/.vscode
+# Build and debug artifacts
+**/bin/
+**/obj/
+**/*.suo
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+
+# Visual Studio Code files
+/.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.config
+*.xml
+*.svg
+
+# NuGet
+**/packages/
+*.nupkg
+!**/packages/build/
+!**/packages/tools/
+*.nuspec
+
+# Nuxt.js build output
+/Neat-vue/.nuxt/
+
+# Node modules
+/Neat-vue/node_modules/
+
+# Environment variables
+*.env
+
+# Ignore log files and databases
+*.log
+*.sqlite3
+*.db
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
