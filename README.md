@@ -5,7 +5,7 @@ NEAT (New Electronic Asset Management) is an asset management application to rep
 
 
 Neat.Web, Neat.Data, and Neat.Services contain the backend of the application. Use `cd Neat.Data && dotnet build` to build Neat.Data, and you can do the same for Neat.Services.
-To start the API server, use `cd Neat.Web && dotnet run`. Note that you'll need access to the database this relies on (which you probably don't but you can just make a migration using the existing models in Neat.Data).
+To start the API server, use `cd Neat.Web && dotnet run`. Note that you'll need access to the PostgreSQL database this relies on (which you probably don't but you can just make a migration using the existing models in Neat.Data).
 
 Then, for development, use `cd Neat-vue && npm i && npm run dev` to install the required packages and start the client web server.
 
