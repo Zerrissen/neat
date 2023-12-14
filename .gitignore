@@ -37,8 +37,9 @@
 # Node modules
 /Neat-vue/node_modules/
 
-# Environment variables
+# Environment  and development variables
 *.env
+appsettings.Development.json
 
 # Ignore log files and databases
 *.log
