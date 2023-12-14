@@ -13,4 +13,5 @@ If you need more information, I apologize, I just don't have the time nor energy
 
 ## SDKs & Other versions
 .NET 8.0.0
+
 Node v21.2.0
