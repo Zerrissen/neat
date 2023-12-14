@@ -1,0 +1,6 @@
+@neat.Web_HostAddress = http://localhost:5008
+
+GET {{neat.Web_HostAddress}}/api/assets/
+Accept: application/json
+
+###

@@ -1,0 +1,14 @@
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.csproj.AssemblyReference.cache
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.AssemblyInfoInputs.cache
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.AssemblyInfo.cs
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.csproj.CoreCompileInputs.cache
+/home/nathan/Projects/neat/Neat.Data/bin/Debug/net8.0/Neat.Data.deps.json
+/home/nathan/Projects/neat/Neat.Data/bin/Debug/net8.0/Neat.Data.dll
+/home/nathan/Projects/neat/Neat.Data/bin/Debug/net8.0/Neat.Data.pdb
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.dll
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/refint/Neat.Data.dll
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.pdb
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/ref/Neat.Data.dll
+/home/nathan/Projects/neat/Neat.Data/bin/Debug/net8.0/Neat.Data.runtimeconfig.json
+/home/nathan/Projects/neat/Neat.Data/obj/Debug/net8.0/Neat.Data.genruntimeconfig.cache
