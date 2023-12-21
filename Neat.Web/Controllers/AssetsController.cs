@@ -7,10 +7,14 @@ using Neat.Data.Models;
 
 namespace Neat.Web.Controllers
 {
+    // * Define AssetsController class
+    // * Controller for all endpoints related to assets
     [ApiController]
     [Route("api/[controller]")]
     public class AssetsController : ControllerBase
     {
+
+        // * Declare instance and inject IAssetService for functionality related to assets
         private readonly IAssetService _assetService;
 
         public AssetsController(IAssetService assetService)
@@ -19,6 +23,8 @@ namespace Neat.Web.Controllers
         }
 
 
+        // * GET /api/assets
+        // * Endpoint to return basic information on all (eventually paginated) assets
         [HttpGet]
         public IActionResult GetAssets()
         {
@@ -26,6 +32,8 @@ namespace Neat.Web.Controllers
             return Ok(assets);
         }
 
+        // * GET /api/assets/{id}
+        // * Endpoint to return detailed information on a single asset
         [HttpGet("{id}")]
         public IActionResult GetAssetById(int id)
         {
@@ -38,6 +46,8 @@ namespace Neat.Web.Controllers
             return Ok(asset);
         }
 
+        // * POST /api/assets
+        // * Endpoint to create a new asset
         [HttpPost]
         public IActionResult CreateAsset([FromBody] NewAssetRequest assetRequest)
         {
@@ -70,12 +80,18 @@ namespace Neat.Web.Controllers
             return Ok();
         }
 
+        // * PUT /api/assets/{id}
+        // * Endpoint to update an existing asset
+        //TODO - Implement this
         [HttpPut("{id}")]
         public IActionResult UpdateAsset(int id)
         {
             return Ok();
         }
 
+        // * DELETE /api/assets/{id}
+        // * Endpoint to delete an existing asset
+        //TODO - Implement this
         [HttpDelete("{id}")]
         public IActionResult DeleteAsset(int id)
         {
