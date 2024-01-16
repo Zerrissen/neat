@@ -7,5 +7,9 @@ namespace Neat.Data {
         public NeatDbContext(DbContextOptions options) : base(options) {}
 
         public virtual DbSet<Asset> Assets { get; set; }
+        public virtual DbSet<Status> Statuses { get; set; }
+        public virtual DbSet<Location> Locations { get; set; }
+        public virtual DbSet<Condition> Conditions { get; set; }
+        public virtual DbSet<AssetType> AssetTypes { get; set; }
     }
 }
